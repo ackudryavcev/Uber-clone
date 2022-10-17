@@ -11,7 +11,7 @@ html {
 header {
     display: flex;
     flex-direction: column;
-    height: 731px;
+    height: 40px;
     background-color: #000000;
     width: 100%;
     display: flex;
@@ -31,7 +31,6 @@ header {
     margin-left: 80px;
     margin-top: 5px;
     font-size: 2.4rem;
-    font-family: 'Inter Tight', sans-serif;
     color: white;
     text-decoration: none;
 }
@@ -143,11 +142,6 @@ header {
     flex-direction: column;
 }
 
-.choice_item {
-    display: flex;
-    flex-direction: column;
-}
-
 .choice_menu {
     width: 516px;
     height: 121px;
@@ -176,6 +170,10 @@ header {
     text-decoration: none;
     font-size: 1.4rem;
     margin-top: 25px;
+}
+
+.choice_link:hover {
+    color: #333333;
 }
 
 .choice_link:first-of-type {
@@ -208,7 +206,6 @@ header {
 }
 
 .choice_title {
-    font-family: inherit;
     font-size: 5.2rem;
     font-weight: 700;
     line-height: 64px;
@@ -218,7 +215,6 @@ header {
 }
 
 .choice_paragraph {
-    font-family: inherit;
     font-size: 1.6rem;
     color: #000000;
     margin: 24px 0 0 48px;
@@ -231,7 +227,6 @@ header {
     background-color: #000000;
     color: #FFFFFF;
     border-radius: 10px;
-    font-family: inherit;
     font-size: 1.6rem;
     font-weight: 700;
 }
@@ -243,10 +238,13 @@ header {
 
 .description_link {
     margin: 48px 0 0 48px;
-    font-family: inherit;
     font-size: 1.6rem;
     color: #000000;
     letter-spacing: 0.1rem;
+}
+
+.description_link:hover {
+    color: #333333;
 }
 
 .choice_driver_image {
@@ -270,7 +268,6 @@ header {
 
 .title {
     color: #000000;
-    font-family: inherit;
     font-size: 3.6rem;
     font-weight: 700;
     line-height: 4.4rem;
@@ -279,7 +276,6 @@ header {
 
 .business_paragraph {
     color: #000000;
-    font-family: inherit;
     font-size: 1.6rem;
     font-weight: normal;
     margin-top: 20px;
@@ -317,7 +313,6 @@ header {
 }
 
 .focus_description_title {
-    font-family: inherit;
     font-weight: 500;
     line-height: 2.4rem;
     font-size: 1.8rem;
@@ -326,7 +321,6 @@ header {
 }
 
 .focus_desription_paragraph {
-    font-family: inherit;
     font-weight: normal;
     font-size: 1.6rem;
     color: #333333;
@@ -335,13 +329,16 @@ header {
 }
 
 .focus_link {
-    font-family: inherit;
     font-weight: normal;
     font-size: 1.6rem;
     color: #000000;
     margin-right: 20px;
     margin-top: 30px;
     display: inline-block;
+}
+
+.focus_link:hover {
+    color: #333333;
 }
 
 .link_last {
@@ -371,7 +368,6 @@ header {
 
 .aboutus_title {
     margin-top: 15px;
-    font-family: inherit;
     font-weight: normal;
     font-size: 1.8rem;
     color: #333333;
@@ -380,7 +376,6 @@ header {
 
 .aboutus_paragraph {
     margin-top: 15px;
-    font-family: inherit;
     font-weight: normal;
     font-size: 1.6rem;
     color: #333333;
@@ -427,11 +422,14 @@ header {
 }
 
 .apps_subtitle {
-    font-family: inherit;
     font-weight: 700;
     font-size: 2.4em;
     color: #000000;
     margin: auto 0;
+}
+
+.apps_subtitle:hover {
+    color: #333333;
 }
 
 .apps_image {
@@ -465,12 +463,15 @@ header {
 }
 
 .sign_up_header {
-    font-family: inherit;
     font-weight: 700;
     font-size: 3.6em;
     line-height: 4.4rem;
     color: #000000;
     width: 80%;
+}
+
+.sign_up_header:hover {
+    color: #333333;
 }
 
 .sign_up_link {
@@ -503,13 +504,16 @@ header {
 }
 
 .footer_top_link {
-    font-family: inherit;
     font-weight: 700;
     font-size: 2.4rem;
     color: #FFFFFF;
     text-decoration: none;
     display: flex;
     margin: 50px 0;
+}
+
+.footer_top_link:hover {
+    color: #AFAFAF;
 }
 
 .footer_top_link:last-of-type {
@@ -519,7 +523,6 @@ header {
 }
 
 .footer_top_link_right {
-    font-family: inherit;
     font-weight: 700;
     font-size: 1.4em;
     color: #FFFFFF;
@@ -527,6 +530,10 @@ header {
     margin-top: 50px;
     width: 100%;
     text-align: right;
+}
+
+.footer_top_link_right:hover {
+    color: #AFAFAF;
 }
 
 .footer_middle {
@@ -566,6 +573,10 @@ header {
     font-weight: normal;
     font-size: 1.4rem;
     line-height: 2rem;
+}
+
+.list_element_link:hover {
+    color: #AFAFAF;
 }
 
 .footer_bottom {
@@ -674,7 +685,7 @@ header {
 
 @media screen and (max-width: 1040px) {
     header {
-        height: 913px;
+        height: 64px;
     }
     .header_container {
         width: 768px;
@@ -791,7 +802,6 @@ header {
         width: 90%;
     }
     .title {
-        font-family: inherit;
         font-size: 3.2rem;
         font-weight: 900;
         line-height: 5.2rem;
@@ -883,7 +893,6 @@ header {
         margin-left: 36px;
     }
     .footer_top_link {
-        font-family: inherit;
         font-weight: 400;
         font-size: 2rem;
     }
@@ -943,9 +952,6 @@ header {
 }
 
 @media screen and (max-width: 767px) {
-    header {
-        height: 798px;
-    }
     .header_container {
         width: 100%;
     }
@@ -1032,7 +1038,6 @@ header {
         margin-left: 36px;
     }
     .footer_top_link {
-        font-family: inherit;
         font-weight: 400;
         font-size: 2rem;
     }
